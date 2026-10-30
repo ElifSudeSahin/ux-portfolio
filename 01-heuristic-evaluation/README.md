@@ -30,21 +30,22 @@ Most serious finding: a new student looking for scholarships ends up on a page w
 
 | # | Finding | Heuristic | Severity |
 |---|---|---|---|
-| 1 | Two links called "Master's degree programmes" lead to different pages | #4 Consistency, #6 Recognition over recall | 3 |
+| 1 | Master's programme information sits in three places, and two links share the same name but lead to different pages | #4 Consistency, #6 Recognition over recall | 3 |
 | 2 | Scholarship search has no "prospective student" option; EDISU (the main state scholarship) is unexplained | #2 Match with real world, #3 User control, #6 Recognition over recall | 4 |
 | 3 | The scholarships topic exists in two different parts of the site, with different menus | #4 Consistency, #1 Visibility of system status | 3 |
 | 4 | English pages contain Italian content (scholarship announcements) | #2 Match with real world | 3 |
 | 5 | Contact is hard: no direct email, only a ticket system, and choosing the right ticket category is unclear | #10 Help, #5 Error prevention | 3 |
 | 6 | Menu says "Financial aid" but the page title is "Tuition fees, services and other opportunities" | #4 Consistency | 2 |
-| 7 | The Financial aid page has six boxes that each open a separate page, with no summaries | #7 Efficiency, #8 Minimalist design | 2 |
+| 7 | The Financial aid page has seven boxes that each open a separate page, with no summaries | #7 Efficiency, #8 Minimalist design | 2 |
 | 8 | The top menu and the blue banner repeat the same section titles, and some labels are long and in capitals | #8 Minimalist design | 2 |
 
 ### Finding 1: Two "Master's degree programmes" paths
 
-Both paths start from the *Education* menu, but they lead to different content.
+The first two paths start from the *Education* menu, but they lead to different content.
 
 - **Path A:** Applying, studying, graduating → Master's degree programmes. Application steps for Italian and non-Italian qualifications.
 - **Path B:** Education → Master's degree programmes. A searchable catalogue of programmes with language filter.
+- **Path C:** Education → International students → Prospective students → Master's degree programmes admission and enrolment. A third, similarly named entry. I did not compare its content with Path A, so they may overlap.
 
 An applicant can easily open the wrong one. **Suggestion:** rename them by purpose, for example "Programme catalogue" and "How to apply".
 
@@ -54,6 +55,8 @@ An applicant can easily open the wrong one. **Suggestion:** rename them by purpo
 ### Finding 2: The scholarship dead end
 
 On the *Scholarships and Awards* page, the "Target group" filter offers *All*, *Current students* and *Graduates*. There is no option for new or prospective students. The main state scholarship is under **EDISU**, a box on the Financial aid page, and nothing explains what EDISU is. A newcomer finds it only by elimination, because the other boxes are not about scholarships.
+
+The *International students* side menu does have a "Prospective students" section, but it only covers who counts as a prospective student, admission and enrolment (Bachelor's, Master's) and services for international applicants. Financial aid is a separate section next to it, so a prospective student has to know to look there.
 
 **Click count** (Education opens on hover, so it is not counted; the back click is counted):
 
@@ -70,6 +73,7 @@ Six is a minimum: a user who does not know what EDISU is would probably also ope
 
 ![Financial aid page](images/03-financial-aid-desktop.png)
 ![Target group filter](images/04-scholarships-and-awards-filter.png)
+![Prospective students section](images/08-prospective-students.png)
 
 ### Finding 3: One topic, two places
 
@@ -85,7 +89,7 @@ The site structure and menus are the same in both languages, but on the English 
 
 - **5. Contact.** There is no direct email address. The ticket form asks for a category, and picking the right one is not easy for someone who does not know the university's internal structure.
 - **6. Label mismatch.** The menu item "Financial aid" opens a page titled "Tuition fees, services and other opportunities", so users cannot confirm they are in the right place.
-- **7. Six separate boxes.** Each box on the Financial aid page opens another page. **Suggestion:** use expandable summaries (accordions) so a user can read two or three sentences before leaving the page. The site already uses this pattern for scholarship announcements lower on the same page.
+- **7. Seven separate boxes.** Each box on the Financial aid page opens another page. **Suggestion:** use expandable summaries (accordions) so a user can read two or three sentences before leaving the page. The site already uses this pattern for scholarship announcements lower on the same page.
 - **8. Repeated navigation.** The same ten section titles appear in the top menu and in the blue banner. Long labels such as "Specializing Master's programmes and lifelong learning" take up to four lines.
 
 ## What works well
